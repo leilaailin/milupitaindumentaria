@@ -47,6 +47,7 @@ nav {
     position: relative;
     margin: 70px;
     text-align: center;
+    background-color: white;
 }
 
 .menu li a{
@@ -236,7 +237,7 @@ label{
     align-items: center;
 }
 
-.colorPantalones{
+.colorPantalones a{
     color: rgb(148, 243, 211);
 }
 
@@ -253,7 +254,7 @@ label{
     align-items: center;
 }
 
-.colorRemeras{
+.colorRemeras a{
     color: pink;
 }
 
@@ -271,7 +272,7 @@ label{
     align-items: center;
     }
 
-.colorAbrigos{
+.colorAbrigos a{
     color: rgb(131, 216, 245);
 }
 
@@ -289,7 +290,7 @@ label{
     align-items: center;
     } 
 
-.colorVestidos{
+.colorVestidos a{
     color:lightgreen
 }
 
@@ -307,7 +308,7 @@ label{
     align-items: center;
     }
 
-.colorAccesorios{
+.colorAccesorios a{
     color: rgb(238, 120, 159);
 }
 
