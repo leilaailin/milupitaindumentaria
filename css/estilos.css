@@ -1,0 +1,188 @@
+body {
+  color: #ff5eb6; }
+
+.destacados {
+  color: black; }
+
+.enviosRetiros {
+  color: black; }
+
+/*operaciones*/
+.caja_uno {
+  background-color: #ffb9fc;
+  width: 450px;
+  padding: 15px; }
+
+.caja_dos {
+  background-color: lightblue;
+  width: 400px;
+  padding: 30px; }
+
+/*condicionles*/
+.coco p {
+  color: violet; }
+
+.coco {
+  border: 2px dashed plum; }
+
+/*bucles*/
+.frase-1 {
+  background-color: powderblue;
+  width: 350px; }
+
+.frase-2 {
+  background-color: powderblue;
+  width: 700px; }
+
+.frase-3 {
+  background-color: powderblue;
+  width: 1050px; }
+
+/*Each*/
+.coco01-fondo {
+  width: 600px;
+  height: 300px;
+  background-image: url("../Img/coco01.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.coco02-fondo {
+  width: 600px;
+  height: 300px;
+  background-image: url("../Img/coco02.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.coco03-fondo {
+  width: 600px;
+  height: 300px;
+  background-image: url("../Img/coco03.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+body {
+  color: #ff5eb6;
+  font-family: 'Patrick Hand', cursive; }
+  body header .colorTitulo {
+    letter-spacing: 7px;
+    font-size: 35px;
+    background-image: linear-gradient(to bottom, pink, white);
+    text-align: center;
+    border: 2px solid #ff5eb6;
+    padding: 2px;
+    margin-top: 0px;
+    font-family: 'Rampart One', cursive; }
+  body header .descuento {
+    color: white;
+    background-color: #d7b0f1;
+    text-align: center;
+    border: 1px solid black;
+    padding: 1px;
+    margin-top: 0px;
+    width: 50px;
+    height: 50px;
+    animation-name: un_efecto;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; }
+  body header nav {
+    text-align: center; }
+    body header nav .menu li {
+      list-style-type: none;
+      display: inline-block;
+      position: relative;
+      margin: 70px;
+      text-align: center; }
+      body header nav .menu li a {
+        color: #ff5eb6;
+        text-decoration: none; }
+      body header nav .menu li .submenu {
+        display: none;
+        position: absolute;
+        list-style: none;
+        border: 1px solid #ff5eb6; }
+        body header nav .menu li .submenu li {
+          display: block;
+          padding: 10px;
+          margin: 0px;
+          font-size: large; }
+    body header nav .menu li:hover ul {
+      display: block; }
+  body header .destacados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto; }
+    body header .destacados .destacado {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      body header .destacados .destacado .colorDestacados1 a {
+        color: #abf561; }
+      body header .destacados .destacado img:hover {
+        transform: scale(1.5); }
+  body header .envios {
+    padding: 2rem 0;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: space-around; }
+    body header .envios .enviosRetiros {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none; }
+      body header .envios .enviosRetiros i {
+        color: #ff5eb6;
+        font-size: 30px; }
+  body header footer {
+    padding: 2rem 0;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: #ff5eb6;
+    display: flex;
+    justify-content: center; }
+    body header footer p {
+      margin-bottom: 0.8rem;
+      flex-basis: 100%; }
+    body header footer .seguinos {
+      color: white;
+      flex-basis: 40%;
+      padding-left: 1rem; }
+      body header footer .seguinos h2 {
+        flex-basis: 100%; }
+    body header footer .redes {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none; }
+      body header footer .redes li {
+        padding: 0 0.5rem;
+        list-style: none; }
+        body header footer .redes li i {
+          color: white;
+          font-size: 3.5rem; }
+        body header footer .redes li i:hover {
+          color: black; }
+    body header footer .metodosPago {
+      color: white;
+      font-size: 1rem;
+      display: block;
+      padding-left: 2rem; }
+      body header footer .metodosPago h4 {
+        margin-bottom: 0.8rem; }
+      body header footer .metodosPago ul {
+        list-style: none;
+        display: flex;
+        padding-left: 0; }
+        body header footer .metodosPago ul i {
+          margin: 0.3rem;
+          font-size: 2rem;
+          padding: 0; }

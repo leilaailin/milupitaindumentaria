@@ -1,0 +1,475 @@
+/*fuente de todo la pagina*/
+*{
+    font-family: 'Patrick Hand', cursive;
+}
+/*Menu*/
+.colorTitulo{
+    color: rgb(255, 94, 182);
+    letter-spacing:7px;
+    font-size:35px;
+    background-image:linear-gradient(to bottom,pink,white);
+    text-align: center; 
+    border: 2px solid rgb(255, 94, 182); 
+    padding: 2px; 
+    margin-top:0px;
+    font-family: 'Patrick Hand', cursive;
+
+}
+
+.descuento{
+    color: rgb(255, 255, 255);
+    background-color: rgb(215, 176, 241) ;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 1px;
+    margin-top: 0px;
+}
+@keyframes un_efecto {
+    75%{width: 800px;}
+    90%{width: 300px;}
+    100%{width: 900;}
+}
+.descuento{
+    width: 50px;
+    height: 50px;
+    animation-name:un_efecto;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+nav {
+    text-align: center;
+}
+
+.menu li {
+    list-style-type: none;
+    display: inline-block; 
+    position: relative;
+    margin: 70px;
+    text-align: center;
+}
+
+.menu li a{
+    color:rgb(255, 94, 182);
+    text-decoration: none;
+}
+
+/*submenu*/
+.submenu{ 
+    display:none;
+    position: absolute;
+    list-style: none;
+    border:1px solid rgb(255, 94, 182); 
+}
+
+.submenu li{
+    display: block;
+    padding: 10px;
+    margin: 0px;
+    font-size: large;   
+}
+
+.menu li:hover ul{
+    display: block;
+}
+
+/*Productos destacados*/
+.colorDestacados1 a{
+    color:#abf561;
+    text-decoration: underline;
+    
+}
+
+.destacados{
+    display:flex ;flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%; height: auto;
+    }
+
+.destacados img:hover{
+    transform: scale(1.5);
+}
+    
+.destacado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.enviosRetiros{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    list-style: none; 
+}
+.enviosRetiros i{
+    color:rgb(255, 94, 182) ;
+    font-size: 30px;
+}
+.envios{
+    padding: 2rem 0; 
+    margin-top: 5rem;   
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;   
+    display: flex;  
+    justify-content:space-around
+    
+}
+
+
+/*pie de pagina redes y metodos de pago*/
+
+.redes {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    list-style: none; 
+}
+.redes i{
+    color: rgb(255, 255, 255);
+    font-size: 3.5rem;  
+}
+.redes i:hover{
+    color: rgb(0, 0, 0);
+}
+li{
+    padding: 0 0.5rem; 
+    list-style: none; 
+}
+
+footer {  
+    padding: 2rem 0; 
+    margin-top: 5rem;   
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;   
+    background-color: rgb(255, 94, 182);
+    display: flex;  
+    justify-content:center; 
+}
+footer p{
+    margin-bottom: 0.8rem;
+}
+.seguinos{
+    color: white;
+    flex-basis: 40%; 
+    padding-left: 1rem;  
+   
+}
+.seguinos h2,p{
+    flex-basis: 100%;
+
+}
+.metodosPago{
+    color: white;
+    font-size: 1rem;
+    display: block;
+    padding-left: 2rem;   
+}
+.metodosPago h4{
+    margin-bottom: 0.8rem;
+}
+.metodosPago ul {
+    list-style: none;   
+    display: flex;
+    padding-left: 0;
+}
+.metodosPago i{
+    margin: 0.3rem;
+    font-size: 2rem;
+    padding: 0;
+}
+
+/*Contacto*/
+.colorContacto{
+    color: deeppink;
+}
+
+.escribanos{
+    color:snow;
+    background-color: plum;
+    text-align: center;
+}
+.formulario{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.formulario input{
+    width: 60px;
+    height: 30px;
+    transition: all 3s;
+}
+.formulario input:focus{
+    width: 300px;
+    font-size: 30px;
+}
+
+label{
+    margin:5px;
+}
+
+.form{
+    margin:5px;
+}
+
+/*Productos*/
+.Productos{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+}
+
+.Productos img:hover{
+    transform:scale(1.5);
+}
+
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.colorPantalones{
+    color: rgb(148, 243, 211);
+}
+
+.Pantalones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.pantalon {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.colorRemeras{
+    color: pink;
+}
+
+.Remeras{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%; 
+    height: auto;
+    }
+    
+.remera{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.colorAbrigos{
+    color: rgb(131, 216, 245);
+}
+
+.Abrigos{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    }
+    
+.abrigo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    } 
+
+.colorVestidos{
+    color:lightgreen
+}
+
+.Vestidos{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    }
+    
+.vestido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.colorAccesorios{
+    color: rgb(238, 120, 159);
+}
+
+.Accesorios{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    }
+    
+.Accesorio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton{
+    color: rgb(255, 94, 182);
+}      
+
+/*nosotros*/
+.sobreNosotras{
+    color: rgb(248, 54, 112);
+    text-align: center;
+    letter-spacing:8px;
+    background-image:url(pipi.jpg);   
+}
+
+.nosotras{
+    display: grid;
+    grid-template-areas:"parrafo video video video" 
+                        "encuesta encuesta encuesta encuesta";
+    grid-template-rows: 1fr 0.5fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.colorParra{
+    text-align: center;
+    font-size:27px;
+    grid-area:parrafo ;
+    padding: 5px;
+}
+
+iframe{
+    grid-area: video;
+    margin-left: 20%;
+}
+
+.encuesta{
+    grid-area: encuesta;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    padding-top: 30px;
+}
+.colorParra2{
+    text-align: center;
+    color:rgb(250, 177, 217); 
+    font-size:25px ;
+}
+
+/*tablet*/
+@media screen and(min-width: 768px)
+{
+    .menu{
+    display: flex;
+    flex-direction: row;
+    }
+    .menu li{
+        display: block;
+    }
+    .destacados{
+        display: flex;
+        flex-direction: row;
+    }
+    .destacado{
+        display: block;
+    }
+}
+
+/*celular*/
+@media screen and(min-width: 480px)
+{
+    .menu{
+    display: flex;
+    flex-direction: row;
+    }
+    .menu li{
+        display: block;
+    }
+    .destacados{
+        display: flex;
+        flex-direction: row;
+    }
+    .destacado{
+        display: block;
+    }
+}
+
+/*computadora*/
+@media screen and(min-width: 1200px)
+{
+    .menu{
+    display: flex;
+    flex-direction: row;
+    }
+    .menu li{
+        display: block;
+    }
+    .destacados{
+        display: flex;
+        flex-direction: row;
+    }
+    .destacado{
+        display: block;
+    }
+}
+/*Celulares bootstrap*/
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+    .destacados{
+        background-color: cadetblue;
+    }
+}
+
+/*tablet bootstrap*/
+@media (min-width: 500) and (max-width: 991px)
+ {
+    footer {
+        display: flex;
+        flex-direction: row;
+    }
+    .seguinos {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+    }
+    .redes li {
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+    }
+    .metodosPago {
+        display: flex;
+        flex-direction: column;
+        flex-direction: 5px;
+    }
+    /*.fab fa-cc-mastercard{
+        size: 2px;
+    }
+    .fab fa-cc-visa{
+        size: 2px;
+    }
+    .fab fa-cc-paypal{
+        size: 2px;
+    }
+    .fab fa-cc-amex{
+        size: 2px;
+    }*/
+    .fab{
+        size: 2px;
+    }
+}
