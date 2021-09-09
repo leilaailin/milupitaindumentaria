@@ -15,7 +15,11 @@
     font-family: 'Patrick Hand', cursive;
 
 }
-
+.alert{
+    text-align: center;
+    margin-top: 10px;
+}
+/* DESCUENTO ANTERIOR
 .descuento{
     color: rgb(255, 255, 255);
     background-color: rgb(215, 176, 241) ;
@@ -29,14 +33,7 @@
     90%{width: 300px;}
     100%{width: 900;}
 }
-.descuento{
-    width: 50px;
-    height: 50px;
-    animation-name:un_efecto;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-}
-
+*/
 nav {
     text-align: center;
 }
