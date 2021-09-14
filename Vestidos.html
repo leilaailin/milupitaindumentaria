@@ -8,15 +8,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Rampart+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/c123d1829a.js" crossorigin="anonymous"></script>
     <meta name="keywords" content="ROPA, MODA, LUPITA, VIRGEN, DESTACADOS, DESCUENTO, OFERTA, ACCESORIOS, VERANO, INVIERNO, OTOÑO, PRIMAVERA, MULTIMARCA,JEANS, TOPS, REMERAS, VESTIDO, POLLERA, MONOS, PAÑUELOS">
     <meta name="description" content="Mi Lupita Indumentaria tienda de ropa multimarca. Envíos Gratis a todo el país en compras mayores a $5.000. Hasta 50% Off en Sale. 3 cuotas sin interés.">
     <title>Vestidos</title>
 </head>
 <body>
-    <nav>
+    <!--<nav>
         <br>
-        <!--Menu Principal-->
+        Menu Principal
         <ul class="menu">
         <li><a href="index.html">INICIO</a></li>
         <li><a href="producto.html">PRODUCTO</a>
@@ -31,7 +32,45 @@
         <li><a href="contacto.html">CONTACTO</a></li>
         <li><a href="nosotros.html">NOSOTROS</a></li>
         </ul>
-    </nav>
+    </nav>-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MI LUPITA INDUMENTARIA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">NOSOTRAS</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="producto.html" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PRODUCTOS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="Pantalones.html">PANTALONES</a></li>
+                  <li><a class="dropdown-item" href="Remeras.html">REMERAS Y TOPS</a></li>
+                  <li><a class="dropdown-item" href="Abrigos.html">ABRIGOS</a></li>
+                  <li><a class="dropdown-item" href="Vestidos.html">VESTIDOS Y POLLERAS</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="Accesorios.html">ACCESORIOS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">CONTACTO</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     <!--Productos Vestidos-->
     <section class="Vestidos">
     <div class="vestido">

@@ -37,12 +37,13 @@
 nav {
     text-align: center;
 }
-
-.menu li {
+a nav menu{
+    color: violet,
+}
+/*.menu li {
     list-style-type: none;
     display: inline-block; 
     position: relative;
-    margin: 70px;
     text-align: center;
     background-color: white;
 }
@@ -52,7 +53,7 @@ nav {
     text-decoration: none;
 }
 
-/*submenu*/
+/*submenu
 .submenu{ 
     display:none;
     position: absolute;
@@ -69,7 +70,7 @@ nav {
 
 .menu li:hover ul{
     display: block;
-}
+}*/
 
 /*Productos destacados*/
 .colorDestacados1 a{
@@ -370,44 +371,72 @@ iframe{
 }
 
 /*tablet*/
-@media screen and(min-width: 768px)
+@media(max-width: 768px)
 {
+    .colorTitulo{
+        width: 80%;
+    }
     .menu{
     display: flex;
     flex-direction: row;
     }
     .menu li{
-        display: block;
+        margin: 10%;
+
     }
     .destacados{
         display: flex;
         flex-direction: row;
     }
-    .destacado{
-        display: block;
+    .nosotras{
+        display: grid;
+        grid-template-areas:"video video video video" 
+                            "parrafo parrafo parrafo parrafo"   
+                            "encuesta encuesta encuesta encuesta"
+                            ;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 100%;
+    }
+    iframe{
+        grid-area: video;
+        margin-left: 0%;
+    }
+    .colorParra{
+        font-size: 15px;
+        padding: 0px;
     }
 }
 
 /*celular*/
-@media screen and(min-width: 480px)
-{
-    .menu{
-    display: flex;
-    flex-direction: row;
+@media(max-width: 480px){
+    .colorTitulo{
+        width: 100%;
     }
-    .menu li{
+    .redes{
+        display: none;
+    }
+    .metodosPago ul {
         display: block;
+        
     }
-    .destacados{
-        display: flex;
-        flex-direction: row;
+    .nosotras{
+        display: grid;
+        grid-template-areas:"video video video video" 
+                            "parrafo parrafo parrafo parrafo"   
+                            "encuesta encuesta encuesta encuesta"
+                            ;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 100%;
     }
-    .destacado{
-        display: block;
+    iframe{
+        grid-area: video;
+        margin-left: 0%;
     }
-}
+}   
 
-/*computadora*/
+/*computadora
 @media screen and(min-width: 1200px)
 {
     .menu{
@@ -425,7 +454,7 @@ iframe{
         display: block;
     }
 }
-/*Celulares bootstrap*/
+/*Celulares bootstrap
 @media (min-width: 576px) and (max-width: 767.98px)
 {
     .destacados{
@@ -433,7 +462,7 @@ iframe{
     }
 }
 
-/*tablet bootstrap*/
+/*tablet bootstrap
 @media (min-width: 500) and (max-width: 991px)
  {
     footer {
@@ -470,4 +499,3 @@ iframe{
     .fab{
         size: 2px;
     }
-}
