@@ -19,6 +19,20 @@
     text-align: center;
     margin-top: 10px;
 }
+.nav-item a{
+    color: rgb(255, 94, 182)!important;
+    font-size: 15px;
+}
+.btn {
+    color: rgb(255, 94, 182)!important;
+    border-color: rgb(255, 94, 182)!important;
+}
+.btn:hover{
+    background-color: white !important;
+}
+.form-control{
+    color: rgb(255, 94, 182)!important;
+}
 /* DESCUENTO ANTERIOR
 .descuento{
     color: rgb(255, 255, 255);
