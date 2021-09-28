@@ -488,7 +488,7 @@ iframe{
         margin-top: 10px;
         
     }
-    .nosotras{
+    /*.nosotras{
         display: grid;
         grid-template-areas:"video video video" 
                             "parrafo parrafo parrafo parrafo"   
@@ -503,7 +503,7 @@ iframe{
         grid-area: video;
         margin-left: 0%;
         margin:10px
-    }
+    }*/
 }   
 
 /*computadora
