@@ -13,7 +13,6 @@
     padding: 2px; 
     margin-top:0px;
     font-family: 'Patrick Hand', cursive;
-
 }
 .alert{
     text-align: center;
@@ -199,6 +198,13 @@ footer p{
     color: deeppink;
 }
 
+.tituloContacto{
+    color: rgb(255, 94, 182);
+    text-align: center;
+    letter-spacing:8px;
+    padding-top: 5px;
+}
+
 .escribanos{
     color:snow;
     background-color: plum;
@@ -249,6 +255,13 @@ label{
     align-items: center;
 }
 
+.tituloPantalones{
+    color: rgb(248, 54, 112);
+    text-align: center;
+    letter-spacing:8px;
+    background-image: url(pipi.jpg);
+}
+
 .colorPantalones a{
     color: rgb(148, 243, 211);
 }
@@ -264,6 +277,13 @@ label{
     display: flex;
     flex-direction:column;
     align-items: center;
+}
+
+.tituloRemerasYTops{
+    color: rgb(248, 54, 112);
+    text-align: center;
+    letter-spacing:8px;
+    background-image: url(pipi.jpg);
 }
 
 .colorRemeras a{
@@ -284,6 +304,13 @@ label{
     align-items: center;
     }
 
+.tituloAbrigos{
+    color: rgb(248, 54, 112);
+    text-align: center;
+    letter-spacing:8px;
+    background-image: url(pipi.jpg);
+}
+
 .colorAbrigos a{
     color: rgb(131, 216, 245);
 }
@@ -301,6 +328,13 @@ label{
     flex-direction: column;
     align-items: center;
     } 
+
+.tituloVestidosYPolleras{
+    color: rgb(248, 54, 112);
+    text-align: center;
+    letter-spacing:8px;
+    background-image: url(pipi.jpg);
+}
 
 .colorVestidos a{
     color:lightgreen
@@ -322,6 +356,13 @@ label{
 
 .colorAccesorios a{
     color: rgb(238, 120, 159);
+}
+
+.tituloAccesorios{
+    color: rgb(248, 54, 112);
+    text-align: center;
+    letter-spacing:8px;
+    background-image: url(pipi.jpg);
 }
 
 .Accesorios{
@@ -415,10 +456,22 @@ iframe{
     iframe{
         grid-area: video;
         margin-left: 0%;
+        width: 90%;
+        
     }
     .colorParra{
         font-size: 15px;
-        padding: 0px;
+        padding:0px;
+    }
+    .encuesta{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .redes{
+        margin-top: 10px;
+    }
+    .metodosPago{
+        margin-top: 10px;
     }
 }
 
@@ -428,15 +481,16 @@ iframe{
         width: 100%;
     }
     .redes{
-        display: none;
+        margin-top: 10px;
     }
-    .metodosPago ul {
+    .metodosPago {
         display: block;
+        margin-top: 10px;
         
     }
     .nosotras{
         display: grid;
-        grid-template-areas:"video video video video" 
+        grid-template-areas:"video video video" 
                             "parrafo parrafo parrafo parrafo"   
                             "encuesta encuesta encuesta encuesta"
                             ;

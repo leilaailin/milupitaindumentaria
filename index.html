@@ -17,8 +17,46 @@
 <body>
     <header>
         <!--Titulo y logo-->
-        <h1 class="colorTitulo"> <center><img src="Img/VirgenGuadalupe.png" width="100" height="150"></center>MI LUPITA INDUMENTARIA</h1>
-        <main class="container">
+        <a style="text-decoration:none" href="index.html"><h1 class="colorTitulo"> <center><img src="Img/VirgenGuadalupe.png" width="100" height="150"></center>MI LUPITA INDUMENTARIA</h1></a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">MI LUPITA INDUMENTARIA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="nosotros.html">NOSOTRAS</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="producto.html" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    PRODUCTOS
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                    <li><a class="dropdown-item" href="Pantalones.html">PANTALONES</a></li>
+                    <li><a class="dropdown-item" href="Remeras.html">REMERAS Y TOPS</a></li>
+                    <li><a class="dropdown-item" href="Abrigos.html">ABRIGOS</a></li>
+                    <li><a class="dropdown-item" href="Vestidos.html">VESTIDOS Y POLLERAS</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="Accesorios.html">ACCESORIOS</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">CONTACTO</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <main class="container">  
             <div class="row">
                 <div class="col-md-12">
                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -72,44 +110,6 @@
             <li><a href="nosotros.html">NOSOTROS</a></li>
             </ul>
         </nav>-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">MI LUPITA INDUMENTARIA</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html">INICIO</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="nosotros.html">NOSOTRAS</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="producto.html" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      PRODUCTOS
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                      <li><a class="dropdown-item" href="Pantalones.html">PANTALONES</a></li>
-                      <li><a class="dropdown-item" href="Remeras.html">REMERAS Y TOPS</a></li>
-                      <li><a class="dropdown-item" href="Abrigos.html">ABRIGOS</a></li>
-                      <li><a class="dropdown-item" href="Vestidos.html">VESTIDOS Y POLLERAS</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="Accesorios.html">ACCESORIOS</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">CONTACTO</a>
-                  </li>
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">BUSCAR</button>
-                </form>
-              </div>
-            </div>
-          </nav>
         <section class="destacados">
         <!--DESTACADOS-->
             <div class="destacado">
@@ -149,15 +149,20 @@
        </section>
        <!--Redes--> 
        <Footer>
-        <div class="seguinos">
-            <h2>SUSCRIBITE</h2>
-            <p>¿TE GUSTARIA RECIBIR CUPONES DE DESUENTO? Ingresa tu mail</p>
-            <form action="#" method="POST">
-            <input type="email" placeholder="Ingresá tu email" id="email" required>
-            <button type="submit" class="boton">SUSCRIBIRSE</button>
-            </form>
-        </div>
-        <ul class="redes">
+        <div class="container">
+          <div class="row">
+              <div class="col-md-4 col-sm-12"> 
+                <div class="seguinos">
+                <h2>SUSCRIBITE</h2>
+                <p>¿TE GUSTARIA RECIBIR CUPONES DE DESUENTO? Ingresa tu mail</p>
+                <form action="#" method="POST">
+                <input type="email" placeholder="Ingresá tu email" id="email" required>
+                <button type="submit" class="boton">SUSCRIBIRSE</button>
+              </form>
+            </div>
+          </div>
+        <div class="col-md-4 col-sm-12">
+          <ul class="redes">
             <li>
                 <a href="https://www.facebook.com/" target="_pink">
                     <i class="fab fa 2x fa-facebook-square"></i>
@@ -173,7 +178,9 @@
                     <i class="fab fa 2x fa-whatsapp"></i>
                 </a>
             </li>
-        </ul>      
+        </ul>  
+        </div>
+      <div class="col-md-4 col-sm-12">
         <div class="metodosPago">
             <h4>MÉTODOS DE PAGO</h4>
             <ul>
@@ -183,6 +190,9 @@
                 <li><i class="fab fa-2x fa-cc-amex"></i></li>
             </ul>
         </div>
+      </div>
+    </div>
+  </div>
        </Footer>
 
     </header>
