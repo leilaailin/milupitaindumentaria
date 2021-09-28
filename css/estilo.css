@@ -494,13 +494,15 @@ iframe{
                             "parrafo parrafo parrafo parrafo"   
                             "encuesta encuesta encuesta encuesta"
                             ;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 0.5fr 1fr 0.5fr;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        width: 100%;
+        width: 80%;
+        margin-left: 10px;
     }
     iframe{
         grid-area: video;
         margin-left: 0%;
+        margin:10px
     }
 }   
 
